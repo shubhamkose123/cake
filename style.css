@@ -1,0 +1,419 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+ul{
+    list-style: none;
+    align-items: center  ;
+    /* overflow-x: hidden; */
+}
+
+#mainnav{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    justify-content: space-evenly;
+    position:sticky;
+    top: 0px;
+    overflow-x: hidden;
+}
+#midnav{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    /* overflow-x: hidden; */
+   
+}
+#midnav li a{
+    padding: 20px;
+    text-decoration: none;
+    color: brown;
+    font-weight: bolder;
+   
+}
+
+#midnav li a:hover{
+    border-bottom: 5px solid aqua;
+    padding: 10px;
+    color: rgb(100, 166, 253);
+    transition: 0.3s;
+}
+
+#endnav li {
+    padding: 20px;
+    text-decoration: none;
+}
+#endnav li :hover{
+    color: rgb(242, 12, 12);
+    transition: 0.3s;
+}
+#endnav{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+#bar{
+    display: none;
+}
+
+ /* ==============================navbar end====================================== */
+
+ #you{
+    font-size: 70px;
+    font-weight: bold;
+    overflow-x: hidden;
+ }
+ #the{
+    font-size: 70px;
+    font-weight: bold;
+ }
+ #use{
+    font-size: 20px;
+ }
+
+ #enter #use a{
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 40px;
+    font-weight: bold;
+    background-color: red;
+    color: white;
+    padding: 10px 30px 10px 30px;
+ }
+ #enter #use a:hover{
+    background-color: white;
+    border: 2px solid white;
+    color: black;
+    transition: 0.5s;
+ }
+ #enter{
+    background: url("https://images.unsplash.com/photo-1588195538326-c5b1e9f80a1b?q=80&w=1950&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    height: 800px;
+    padding-top: 50px;
+    background-size: cover;
+ }
+ /* ==========================end home made cake =================================== */
+ #our{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 90px 30px 90px 30px;
+    overflow-x: hidden;
+ }
+ #or{
+    color: black;
+    font-weight: bolder;
+    font-size: 40px;
+    padding-top: 100px;
+ }
+ #or1{
+    font-weight: bolder;
+    font-size: 40px;
+ }
+ #aboutus a{
+    text-decoration: none;
+    background-color:  rgb(246, 39, 46);
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+ }
+ #aboutus a:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(246, 39, 46);
+    transition: 0.5s;
+ }
+ @media(max-width:375px){
+    #our{
+        display: block;  
+     }
+   #or{
+    font-size: 50px;
+   }
+
+   #or1{
+    font-size:50px;
+    width: 100%;
+   }
+   #aboutus a{
+    font-size:50px;
+    width: 100%;
+   }
+    #mainnav{
+        display: block;
+        
+    }
+    #midnav{
+        display: block;
+    }
+    #enter{
+        width: 300px;
+
+    }
+
+    #right{
+        margin-top: 550px;
+    }   
+}
+
+/* ========================================= end about us ========================================= */
+
+#cus{
+    font-size: 40px;
+    font-weight: bold;
+    overflow-x: hidden;
+}
+#fav{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding-left: 150px;
+   
+}
+#bl{
+    font-weight: bold;
+    padding: 10px;
+    padding-right: 100px;
+}
+#bl1{
+    font-weight: bold;
+    padding-right: 100px;
+    
+}
+#fav #im1{
+    /* border: 2px solid white; */
+    position: relative;
+     overflow: hidden; 
+    width: 300px;
+    height: 250px;
+    border-radius: 20px;
+    /* transition: all 3s linear; */
+}
+#fav #im1 img:hover{
+    scale: 1.5;
+    transition: 0.8s;
+    transform: rotate(15deg);
+    
+}
+#fav #im2{
+    border: 2px solid white;
+    overflow: hidden;
+    width: 300px;
+    height: 250px;
+    border-radius: 20px;
+    transition: all 3s linear;
+}
+#fav #im2 img:hover{
+    scale: 1.5;
+    transition: 0.8s;
+    transform: rotate(15deg);
+    
+}
+#fav #im3{
+    border: 2px solid white;
+    overflow: hidden;
+    width: 300px;
+    height: 250px;
+    border-radius: 20px;
+    transition: all 3s linear;
+}
+#fav #im3 img:hover{
+    scale: 1.5;
+    transition: 0.8s;
+    transform: rotate(15deg);
+    
+}
+#fav #im4{
+    border: 2px solid white;
+    overflow: hidden;
+    width: 300px;
+    height: 250px;
+    border-radius: 20px;
+    transition: all 3s linear;
+}
+#fav #im4 img:hover{
+    scale: 1.5;
+    transition: 0.8s;
+    transform: rotate(15deg);
+}
+
+@media(max-width:375px){
+
+    #fav{
+        display: grid;
+        grid-template-columns: auto;
+        margin-right: 500px;
+        
+    }
+
+
+    #cus{
+        font-size: 30px;
+        font-weight: bold;
+        overflow-x: hidden;
+    }
+
+
+    #left{
+        margin-left: -100px;
+        
+    }
+}
+/* ============================================== end good test ==================================== */
+#fast{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 40px;
+    padding-left: 350px;
+}
+#fast1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+#fast1 img{
+    width: 90px;
+}
+
+
+@media(max-width:375px){
+    #fast{
+        display: grid;
+        grid-template-columns: auto;
+        column-gap: 50px;
+        row-gap: 50px;
+        padding-left: 40px;
+    }
+}
+ /*======================================================End fast delivery======================================================  */
+ #contact{
+    align-items: center;
+    justify-content: space-evenly;
+}
+#contact div{
+    color:black;
+    margin: 6px;
+}
+
+#phone{
+   /* display: grid;
+   grid-template-columns: auto auto auto auto auto a;
+   align-items: center;
+   justify-content:center ; */
+   position: absolute;
+   top: 4150px;
+   right: 1000px;
+   margin-top: 180px;
+   line-height: 50px;
+   
+}
+#for1{
+    display: grid;
+    grid-template-columns: auto ;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 600px;
+    padding-top: 50px;
+    /* position: relative; */
+   
+
+}
+#for2{
+    width: 200px;
+    height: 30px;
+    background-color: white;
+    border: 1px solid black;
+    margin: 5px;
+    border-radius: 10px;
+   left:1000px ;
+    /* border: solid 1px red; */
+}
+#for2{
+    margin: 5px;
+    border-radius: 10px;
+    color: white;
+}
+#button{
+    display: grid;
+    justify-content: center;
+    padding-top: 50px;
+    /* top: 4400px;
+    right: 490px; */
+    
+}
+#button button{
+    text-decoration: none;
+    border-radius: 40px;
+    font-weight: bold;
+    background-color: red;
+    color: white;
+    padding: 10px 30px 10px 30px;
+}
+#button button:hover{
+    background-color: white;
+    border: 2px solid red;
+    color: black;
+    transition: 0.5s;
+
+}
+
+ /* ===========================================================contect end======================================================== */
+ #footer{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: rgb(242, 231, 217);
+    padding: 80px;
+    overflow-x: hidden;
+}
+#dont{
+    font-size: 40px;
+    font-weight: bold;
+}
+#dont1 div{
+    padding: 10px;
+}
+#ser{
+    font-weight: bold;
+    font-size: 20px;
+}
+#dont1 i{
+    font-size: 30px;
+    padding: 10px;
+}
+#last{
+    font-size: 25px
+    
+}
+#dont1 i:hover{
+    color: brown;
+    scale: 1.2;
+    transition: 0.5s;
+}
+
+
+@media(max-width:375px){
+    #footer{
+        display: grid;
+        grid-template-columns: auto  ;
+       
+    }
+
+    #logo{
+        display: flex;
+    }
+
+    #input{
+        width: 50px;
+    }
+
+    #last{
+      width: 200px;
+    }
+
+    #img1 img{
+        width: 100%;
+        height: 300px;
+    }
+
+    #for2{
+        margin-left: -500px;
+    }
+}
